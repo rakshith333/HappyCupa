@@ -1,0 +1,338 @@
+@font-face {
+  font-family: "Napolean_Bold";
+  src:url('../fonts/Napolean_Bold/Napolean-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Handmade Dropshadow JNL";
+  src: url("7ace7df8cd3fd0236f7cbd4054c8232a.eot"); /* IE9*/
+  src: url("7ace7df8cd3fd0236f7cbd4054c8232a.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("7ace7df8cd3fd0236f7cbd4054c8232a.woff2") format("woff2"), /* chrome、firefox */
+  url("7ace7df8cd3fd0236f7cbd4054c8232a.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/Handmade_Dropshadow_JNL/@font-face/7ace7df8cd3fd0236f7cbd4054c8232a.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("7ace7df8cd3fd0236f7cbd4054c8232a.svg#Handmade Dropshadow JNL") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "Copse";
+  src:url('../fonts/Copse/Copse-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {font-family: "VigorDTCond-Black";
+  src: url("3de661e2c2a103e9113909c3c6b394b6.eot"); /* IE9*/
+  src: url("3de661e2c2a103e9113909c3c6b394b6.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("3de661e2c2a103e9113909c3c6b394b6.woff2") format("woff2"), /* chrome、firefox */
+  url("3de661e2c2a103e9113909c3c6b394b6.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/VigorDT/@font-face/3de661e2c2a103e9113909c3c6b394b6.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("3de661e2c2a103e9113909c3c6b394b6.svg#VigorDTCond-Black") format("svg"); /* iOS 4.1- */
+}
+
+.titleclass{
+  height:22em;
+  background: url(../images/titleimg3.jpg);
+  position:relative;
+}
+
+.happy-text{
+  float:right;
+  font-family: "Napolean_Bold";
+  position: relative;
+  top:5.5em;
+}
+
+.title-img{
+  display:block;
+  margin:auto;
+  width:15em;
+}
+.cupa-text{
+  float:left;
+  font-family: "Napolean_Bold";
+  position: relative;
+  top:5.5em;
+  right:0.6em;
+}
+.navbar {
+  border:0;
+  padding:0;
+  margin:0;
+}
+.bev-button{
+  background-color: black;
+  color:white;
+  padding: 15px 25px;
+ text-decoration: none;
+}
+.bev-button:hover{
+  color:white;
+}
+
+.bg1{
+  background: url(../images/backgroundimg.jpg);
+  background-position: center center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ max-width:100%;
+}
+.coffee-heading{
+  margin-top: 3em;
+}
+.bevrages-heading{
+  margin-top: 3em;
+}
+.hot-coffee h3{
+  font-family: 'Special Elite',cursive;
+  line-height: 1.4em;
+}
+.price h3{
+  float:right;
+  font-family: 'Special Elite',cursive;
+  line-height: 1.4em;
+
+}
+.price{
+    padding-right: 8em !important;
+    white-space:nowrap;
+}
+.names{
+  padding-left: 16em !important;
+
+}
+.names2{
+  padding-left: 5em !important;
+}
+.bev-info{
+  padding-left: 14em !important;
+}
+.coffee-pos{
+  padding: 4.5em;
+}
+
+.sec1-names{
+  position: relative;
+  bottom:1.3em;
+  left:5em;
+}
+.line1-top {
+
+  width: 100%;
+  height:0.1em;
+  position: relative;
+  bottom:4em;
+  left:16em;
+  margin-bottom:1em;
+  background:
+    repeating-linear-gradient(to right,black 0,black 10px,transparent 10px,transparent 12px)
+
+}
+.line1-bottom {
+
+  width: 100%;
+  height:0.1em;
+  position: relative;
+  bottom:4em;
+  left:16em;
+  margin-top: 1em;
+  background:
+    repeating-linear-gradient(to right,black 0,black 10px,transparent 10px,transparent 12px)
+
+
+}
+
+
+.bevtype{
+  font-family:'Handmade Dropshadow JNL';
+  font-size: 3em;
+  text-align: center;
+  white-space:nowrap;
+}
+.bevtype2{
+  font-family:'Handmade Dropshadow JNL';
+  font-size: 3.2em;
+  text-align: center;
+}
+
+.blended-names{
+  font-family:"VigorDTCond-Black" !important;
+  font-style:normal;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   font-size: 2.8em;
+}
+
+.blended-info{
+  font-family: "Copse";
+}
+
+.bg2{
+  background: url(../images/backgroundimg.jpg);
+  text-align: center;
+  background-position: center center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ max-width:100%;
+
+}
+.seasonal-title{
+  font-family:"VigorDTCond-Black" !important;
+}
+.seasonal-info{
+  font-family: "Copse";
+}
+.line3 {
+  /* margin:5px 0; */
+  width: 82%;
+  margin-left: 15em;
+  height:0.1em;
+  background:
+    repeating-linear-gradient(to right,black 0,black 10px,transparent 10px,transparent 12px)
+
+}
+.line4 {
+  /* margin:5px 0; */
+  width: 82%;
+  margin-left: 15em;
+  margin-top: 1em;
+  height:0.1em;
+  background:
+    repeating-linear-gradient(to right,black 0,black 10px,transparent 10px,transparent 12px)
+
+}
+.DreamTeam{
+  margin-top: 4% !important;
+}
+.Unicorn{
+  padding-top: 4% !important;
+}
+.seasonal-info{
+  margin-bottom: 0rem!important;
+}
+.bg3{
+  height:100px;
+  background: url(../images/titleimg3.jpg);
+  position: relative;
+}
+.footer{
+  text-align: center;
+  padding-top: 1em;
+}
+html, body {
+  overflow-x: hidden;
+}
+
+@media (max-width:1275px) {
+  .happy-text{
+    float:right;
+    font-family: "Napolean_Bold";
+    position: relative;
+    right:1.2em!important;
+  }
+
+  .title-img{
+    display:block;
+    margin:auto;
+    width:15em;
+    position: relative;
+    right:5.7em!important;
+  }
+  .cupa-text{
+    float:left;
+    font-family: "Napolean_Bold";
+    position: relative;
+    left:1.2em;
+  }
+  .coffee-pos{
+    position: static;
+  }
+
+  .price{
+      padding-right: 3%!important;
+  }
+  .names{
+    padding-left:2% !important;
+    max-width: 100%;
+    padding-right: 0em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+  }
+  .names2{
+    padding-left: 2%!important;
+  }
+  .bev-info{
+    padding-left:3%!important;
+  }
+  .coffee-pos{
+    padding:1%!important;
+  }
+  .bevtype{
+      padding-right: 16%!important;
+  }
+  .line1-top {
+    /* margin:5px 0; */
+    width: 100%;
+    height:2px;
+    position: relative;
+    bottom:1em;
+    left:0em;
+    margin-bottom:1em;
+    background:
+      repeating-linear-gradient(to right,black 0,black 10px,transparent 10px,transparent 12px)
+  }
+  .line1-bottom {
+    /* margin:5px 0; */
+    width: 100%;
+    height:2px;
+    position: relative;
+    bottom:1em;
+    left:0em;
+    margin-top: 1em;
+    background:
+      repeating-linear-gradient(to right,black 0,black 10px,transparent 10px,transparent 12px)
+
+
+  }
+  .sec1-names{
+    position: relative;
+    bottom:0.5em;
+    left:2em;
+  }
+  .line3 {
+
+    width: 100%;
+    height:2px;
+    position: relative;
+    left:0;
+    margin-left: 0;
+    background:
+      repeating-linear-gradient(to right,black 0,black 10px,transparent 10px,transparent 12px)
+
+  }
+  .line4 {
+
+    width: 100%;
+    margin-top: 1em;
+    height:2px;
+    left:0;
+    margin-left:0;
+    background:
+      repeating-linear-gradient(to right,black 0,black 10px,transparent 10px,transparent 12px)
+
+  }
+  html, body {
+    overflow-x: hidden;
+  }
+  .bev-button{
+    background-color: black;
+    color:white;
+    padding: 15px 25px;
+   text-decoration: none;
+   position: relative;
+   left:6em;
+   top:21em;
+  }
+}
